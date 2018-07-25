@@ -19,7 +19,6 @@ def add_colors
   RAINBOW_COLORS[1] = "light_red"
   RAINBOW_COLORS[2] = "light_yellow"
     puts RAINBOW_COLORS
-end
 RAINBOW_COLORS.push ("green")
   RAINBOW_COLORS.push ("blue")
   puts RAINBOW_COLORS
