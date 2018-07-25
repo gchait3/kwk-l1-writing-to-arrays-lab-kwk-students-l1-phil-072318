@@ -7,10 +7,12 @@ RAINBOW_COLORS = [
 def change_rainbow_colors
   # Write a solution that corrects the three colors in rainbow_colors, then returns the corrected array
   RAINBOW_COLORS[0] = "red"
-
     puts "red"
   RAINBOW_COLORS[1] = "light_red"
-  RAINBOW_COLORS[2] = "light_yellow"end
+    puts "light_red"
+  RAINBOW_COLORS[2] = "light_yellow"
+    puts "light_yellow"
+end
 change_rainbow_colors
 
 def add_colors
