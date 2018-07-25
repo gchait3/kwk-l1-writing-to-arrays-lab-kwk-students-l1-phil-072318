@@ -18,3 +18,4 @@ def add_colors
   RAINBOW_COLORS.push ("green")
   puts RAINBOW_COLORS
 end
+add_colors
