@@ -18,8 +18,8 @@ def add_colors
   RAINBOW_COLORS[0] = "red"
   RAINBOW_COLORS[1] = "light_red"
   RAINBOW_COLORS[2] = "light_yellow"
-RAINBOW_COLORS.push ("green")
-  RAINBOW_COLORS.push ("blue")
+RAINBOW_COLORS << "green"
+  RAINBOW_COLORS << "blue"
   puts RAINBOW_COLORS
 end
 add_colors
